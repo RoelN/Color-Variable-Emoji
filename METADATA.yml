@@ -1,0 +1,15 @@
+---
+unified font repository version: "0.2"
+unified font repository url: https://github.com/raphaelbastide/Unified-Font-Repository/
+typeface family:
+  name: Color Variable Emoji
+  tags:
+  repository url: https://github.com/djrrb/Color-Variable-Emoji
+  project url: https://github.com/djrrb/Color-Variable-Emoji
+  project status: beta
+  tools:
+  - RoboFont
+  similar fonts:
+  sample text:
+  - en_us: The quick brown fox jumps over the lazy dog
+...

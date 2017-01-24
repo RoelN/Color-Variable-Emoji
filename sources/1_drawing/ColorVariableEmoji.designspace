@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1000" minimum="0" name="stuf" tag="stuf" />
+    </axes>
+    <sources>
+        <source familyname="Color Variable Emoji" filename="ColorVariableEmoji-stuf0.ufo" name="ColorVariableEmoji-Default" stylename="Default">
+            <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="stuf" xvalue="0.000000" />
+            </location>
+        </source>
+        <source familyname="Color Variable Emoji" filename="ColorVariableEmoji-stuf1000.ufo" name="ColorVariableEmoji-stuf1000" stylename="stuf1000">
+            <location>
+                <dimension name="stuf" xvalue="1000.000000" />
+            </location>
+        </source>
+    </sources>
+    <instances />
+</designspace>

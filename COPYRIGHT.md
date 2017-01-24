@@ -1,0 +1,1 @@
+Copyright (c) 2017, Roel Nieskens <roel@pixelambacht.nl> and David Jonathan Ross <david@djr.com>

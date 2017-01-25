@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>space</key>
+	<string>space.glif</string>
+	<key>u1F4A9</key>
+	<string>u1F4A9_.glif</string>
+	<key>u1F4A9.brown</key>
+	<string>u1F4A9_.brown.glif</string>
+	<key>u1F4A9.darkbrown</key>
+	<string>u1F4A9_.darkbrown.glif</string>
+	<key>u1F4A9.hat</key>
+	<string>u1F4A9_.hat.glif</string>
+	<key>u1F4A9.outline</key>
+	<string>u1F4A9_.outline.glif</string>
+	<key>u1F4A9.white</key>
+	<string>u1F4A9_.white.glif</string>
+	<key>uni2B55</key>
+	<string>uni2B55_.glif</string>
+	<key>uni2B55.001</key>
+	<string>uni2B55_.001.glif</string>
+	<key>uni2B55.002</key>
+	<string>uni2B55_.002.glif</string>
+</dict>
+</plist>

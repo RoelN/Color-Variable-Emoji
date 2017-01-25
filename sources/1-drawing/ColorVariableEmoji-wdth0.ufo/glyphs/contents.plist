@@ -4,6 +4,18 @@
 <dict>
 	<key>space</key>
 	<string>space.glif</string>
+	<key>u1F4A9</key>
+	<string>u1F4A9_.glif</string>
+	<key>u1F4A9.brown</key>
+	<string>u1F4A9_.brown.glif</string>
+	<key>u1F4A9.darkbrown</key>
+	<string>u1F4A9_.darkbrown.glif</string>
+	<key>u1F4A9.hat</key>
+	<string>u1F4A9_.hat.glif</string>
+	<key>u1F4A9.outline</key>
+	<string>u1F4A9_.outline.glif</string>
+	<key>u1F4A9.white</key>
+	<string>u1F4A9_.white.glif</string>
 	<key>uni2B55</key>
 	<string>uni2B55_.glif</string>
 	<key>uni2B55.001</key>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.5">
+
+  <COLR>
+    <version value="0"/>
+    <ColorGlyph name="u1F4A9">
+      <layer colorID="0" name="u1F4A9.brown"/>
+      <layer colorID="1" name="u1F4A9.darkbrown"/>
+      <layer colorID="2" name="u1F4A9.white"/>
+      <layer colorID="3" name="u1F4A9.outline"/>
+      <layer colorID="4" name="u1F4A9.hat"/>
+    </ColorGlyph>
+  </COLR>
+
+  <CPAL>
+    <version value="0"/>
+    <numPaletteEntries value="5"/>
+    <palette index="0">
+      <color index="0" value="#631200FF"/>
+      <color index="1" value="#3C0D03FF"/>
+      <color index="2" value="#EEEEEEFF"/>
+      <color index="3" value="#111111FF"/>
+      <color index="4" value="#F507EAFF"/>
+    </palette>
+  </CPAL>
+
+</ttFont>

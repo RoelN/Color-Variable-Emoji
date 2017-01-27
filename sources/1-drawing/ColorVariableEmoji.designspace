@@ -1,23 +1,124 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="0" maximum="1000" minimum="0" name="wdth" tag="wdth" />
+        <axis default="0" maximum="1000" minimum="0" name="wght" tag="wght" />
     </axes>
     <sources>
-        <source familyname="Color Variable Emoji" filename="ColorVariableEmoji-wdth0.ufo" name="ColorVariableEmoji-Default" stylename="Default">
+        <source familyname="Color Variable Emoji" filename="ColorVariableEmoji-wght0.ufo" name="ColorVariableEmoji-Default" stylename="Default">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
             <info copy="1" />
             <location>
-                <dimension name="wdth" xvalue="0.000000" />
+                <dimension name="wght" xvalue="100.000000" />
             </location>
         </source>
-        <source familyname="Color Variable Emoji" filename="ColorVariableEmoji-wdth1000.ufo" name="ColorVariableEmoji-wdth1000" stylename="wdth1000">
+        <source familyname="Color Variable Emoji" filename="ColorVariableEmoji-wght1000.ufo" name="ColorVariableEmoji-wght1000" stylename="wght1000">
             <location>
-                <dimension name="wdth" xvalue="1000.000000" />
+                <dimension name="wght" xvalue="900.000000" />
             </location>
         </source>
     </sources>
-    <instances />
+    <instances>
+        
+        <instance familyname="Color Variable Emoji" name="instance_100" stylemapstylename="regular" stylename="Thin">
+            <location>
+                <dimension name="wght" xvalue="100" />
+            </location>
+            <glyphs>
+                <glyph mute="1" name="" />
+            </glyphs>
+            <kerning />
+            <info />
+        </instance>
+
+        <instance familyname="Color Variable Emoji" name="instance_200" stylemapstylename="regular" stylename="ExtraLight">
+            <location>
+                <dimension name="wght" xvalue="200" />
+            </location>
+            <glyphs>
+                <glyph mute="1" name="" />
+            </glyphs>
+            <kerning />
+            <info />
+        </instance>
+
+        <instance familyname="Color Variable Emoji" name="instance_300" stylemapstylename="regular" stylename="Light">
+            <location>
+                <dimension name="wght" xvalue="300" />
+            </location>
+            <glyphs>
+                <glyph mute="1" name="" />
+            </glyphs>
+            <kerning />
+            <info />
+        </instance>
+
+        <instance familyname="Color Variable Emoji" name="instance_400" stylemapstylename="regular" stylename="Regular">
+            <location>
+                <dimension name="wght" xvalue="400" />
+            </location>
+            <glyphs>
+                <glyph mute="1" name="" />
+            </glyphs>
+            <kerning />
+            <info />
+        </instance>
+
+        <instance familyname="Color Variable Emoji" name="instance_500" stylemapstylename="regular" stylename="Medium">
+            <location>
+                <dimension name="wght" xvalue="500" />
+            </location>
+            <glyphs>
+                <glyph mute="1" name="" />
+            </glyphs>
+            <kerning />
+            <info />
+        </instance>
+
+        <instance familyname="Color Variable Emoji" name="instance_600" stylemapstylename="regular" stylename="SemiBold">
+            <location>
+                <dimension name="wght" xvalue="600" />
+            </location>
+            <glyphs>
+                <glyph mute="1" name="" />
+            </glyphs>
+            <kerning />
+            <info />
+        </instance>
+        
+        <instance familyname="Color Variable Emoji" name="instance_700" stylemapstylename="regular" stylename="Bold">
+            <location>
+                <dimension name="wght" xvalue="700" />
+            </location>
+            <glyphs>
+                <glyph mute="1" name="" />
+            </glyphs>
+            <kerning />
+            <info />
+        </instance>
+        
+        <instance familyname="Color Variable Emoji" name="instance_800" stylemapstylename="regular" stylename="Black">
+            <location>
+                <dimension name="wght" xvalue="800" />
+            </location>
+            <glyphs>
+                <glyph mute="1" name="" />
+            </glyphs>
+            <kerning />
+            <info />
+        </instance>
+        
+        <instance familyname="Color Variable Emoji" name="instance_900" stylemapstylename="regular" stylename="Ultra">
+            <location>
+                <dimension name="wght" xvalue="900" />
+            </location>
+            <glyphs>
+                <glyph mute="1" name="" />
+            </glyphs>
+            <kerning />
+            <info />
+        </instance>
+
+    </instances>
 </designspace>

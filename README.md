@@ -2,7 +2,7 @@
 
 This is an experimental, one-character variable color font. It contains only one character, the poo emoji 💩. It has one axis, "crap", which goes from 100 to 900.
 
-You can see [Mr. Poo in action here](https://pixelambacht.nl/demo/mrpoo/)!
+You can see [Mr. Poo in action here](https://pixelambacht.nl/demo/mrpoo/)! If he's all black and/or doesn't animate, your browser doesn't fully support variable color fonts yet.
 
 ## Where does it work?
 

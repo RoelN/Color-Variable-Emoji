@@ -1212,7 +1212,7 @@
     <!-- DesignAxisCount=1 -->
     <DesignAxisRecord>
       <Axis index="0">
-        <AxisTag value="XXXX"/>
+        <AxisTag value="crap"/>
         <AxisNameID value="256"/>
         <AxisOrdering value="0"/>
       </Axis>
@@ -1281,7 +1281,7 @@
 
     <!-- Capheight -->
     <Axis>
-      <AxisTag>XXXX</AxisTag>
+      <AxisTag>crap</AxisTag>
       <MinValue>100.0</MinValue>
       <DefaultValue>100.0</DefaultValue>
       <MaxValue>900.0</MaxValue>
@@ -1290,47 +1290,47 @@
 
     <!-- Capheight01 -->
     <NamedInstance subfamilyNameID="257">
-      <coord axis="XXXX" value="100.0"/>
+      <coord axis="crap" value="100.0"/>
     </NamedInstance>
 
     <!-- Capheight02 -->
     <NamedInstance subfamilyNameID="258">
-      <coord axis="XXXX" value="200.0"/>
+      <coord axis="crap" value="200.0"/>
     </NamedInstance>
 
     <!-- Capheight03 -->
     <NamedInstance subfamilyNameID="259">
-      <coord axis="XXXX" value="300.0"/>
+      <coord axis="crap" value="300.0"/>
     </NamedInstance>
 
     <!-- Capheight04 -->
     <NamedInstance subfamilyNameID="260">
-      <coord axis="XXXX" value="400.0"/>
+      <coord axis="crap" value="400.0"/>
     </NamedInstance>
 
     <!-- Capheight05 -->
     <NamedInstance subfamilyNameID="261">
-      <coord axis="XXXX" value="500.0"/>
+      <coord axis="crap" value="500.0"/>
     </NamedInstance>
 
     <!-- Capheight06 -->
     <NamedInstance subfamilyNameID="262">
-      <coord axis="XXXX" value="600.0"/>
+      <coord axis="crap" value="600.0"/>
     </NamedInstance>
 
     <!-- Capheight07 -->
     <NamedInstance subfamilyNameID="263">
-      <coord axis="XXXX" value="700.0"/>
+      <coord axis="crap" value="700.0"/>
     </NamedInstance>
 
     <!-- Capheight08 -->
     <NamedInstance subfamilyNameID="264">
-      <coord axis="XXXX" value="800.0"/>
+      <coord axis="crap" value="800.0"/>
     </NamedInstance>
 
     <!-- Capheight09 -->
     <NamedInstance subfamilyNameID="265">
-      <coord axis="XXXX" value="900.0"/>
+      <coord axis="crap" value="900.0"/>
     </NamedInstance>
   </fvar>
 
@@ -1339,7 +1339,7 @@
     <reserved value="0"/>
     <glyphVariations glyph=".notdef">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -1356,7 +1356,7 @@
     </glyphVariations>
     <glyphVariations glyph="space">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -1365,7 +1365,7 @@
     </glyphVariations>
     <glyphVariations glyph="uni2B55">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -1398,7 +1398,7 @@
     </glyphVariations>
     <glyphVariations glyph="uni2B55.001">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -1419,7 +1419,7 @@
     </glyphVariations>
     <glyphVariations glyph="uni2B55.002">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -1440,7 +1440,7 @@
     </glyphVariations>
     <glyphVariations glyph="u1F4A9">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -1621,7 +1621,7 @@
     </glyphVariations>
     <glyphVariations glyph="u1F4A9.brown">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -1691,7 +1691,7 @@
     </glyphVariations>
     <glyphVariations glyph="u1F4A9.darkbrown">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -1763,7 +1763,7 @@
     </glyphVariations>
     <glyphVariations glyph="u1F4A9.white">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -1811,7 +1811,7 @@
     </glyphVariations>
     <glyphVariations glyph="u1F4A9.outline">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -2106,7 +2106,7 @@
     </glyphVariations>
     <glyphVariations glyph="u1F4A9.hat">
       <tuple>
-        <coord axis="XXXX" value="1.0"/>
+        <coord axis="crap" value="1.0"/>
         <delta pt="0" x="20" y="0"/>
         <delta pt="1" x="20" y="0"/>
         <delta pt="2" x="0" y="0"/>

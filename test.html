@@ -3,77 +3,52 @@
 <head>
     <title></title>
     <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: VariablePooDemo;
+        src: url("./VariablePooDemo.ttf");
+    }
+
+    @keyframes capheight {
+        from {
+            font-variation-settings: "crap" 100;
+        }
+        to {
+            font-variation-settings: "crap" 900;
+        }
+    }
+
     #mrpoo {
-        font-size: 18em;
-        font-family: VariablePooDemo Capheight01;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12em;
+        font-family: VariablePooDemo;
+        font-variation-settings: "crap" 900;
+        animation: capheight 1s infinite alternate ease-in-out;
+    }
+
+    a {
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        width: 6rem;
+        height: 3rem;
+        background: url("https://pixelambacht.nl/img/logo-mexican-horrormovie.svg") no-repeat bottom center;
+        background-size: contain;
     }
     </style>
-
-    <script>
-        var fontList = [
-            '"VariablePooDemo Capheight01"',
-            '"VariablePooDemo Capheight02"',
-            '"VariablePooDemo Capheight03"',
-            '"VariablePooDemo Capheight04"',
-            '"VariablePooDemo Capheight05"',
-            '"VariablePooDemo Capheight06"',
-            '"VariablePooDemo Capheight07"',
-            '"VariablePooDemo Capheight08"',
-            '"VariablePooDemo Capheight09"'
-        ];
-
-        var frameDuration = 60;
-        var curFont;
-        var el;
-
-        function nextFont(c) {
-            if ((c.val == 0) && (c.inc < 0)) {
-                c.inc = +1;
-            }
-            if ((c.val == fontList.length-1) && (c.inc > 0)) {
-                c.inc = -1;
-            }
-
-            c.val += c.inc;
-
-            return(c);
-        }
-
-        function start(elemId) {
-            el = document.getElementById(elemId)
-
-            // Start at the first font, progressing up
-            curFont = { val: 0, inc: +1};
-
-            // Start the first frame
-            update();
-        }
-
-        function update() {
-            // Replace the font with the current one in fontList
-            el.style.fontFamily = fontList[curFont.val];
-
-            // Increment font
-            curFont = nextFont(curFont);
-
-            // Set the timer for the next frame
-            var animationId = setTimeout(update, frameDuration);
-        }
-
-        function startAnimations() {
-            setTimeout(function() {
-                start("mrpoo");
-            }, 10000);
-        }
-    </script>
 </head>
 
-<body onload="startAnimations()">
-
-    <div id="mrpoo" class="common">
+<body>
+    <div id="mrpoo">
         &#x1F4A9;
     </div>
-
-    <small>Remember to download <a href="./VariablePooDemo.ttf"></a> and install the font locally on Windows 10!</small>
+    <a href="https://pixelambacht.nl"></a>
 </body>
 </html>

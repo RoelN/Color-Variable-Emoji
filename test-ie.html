@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+    #mrpoo {
+        font-size: 18em;
+        font-family: VariablePooDemo Capheight01;
+    }
+    </style>
+
+    <script>
+        var fontList = [
+            '"VariablePooDemo Capheight01"',
+            '"VariablePooDemo Capheight02"',
+            '"VariablePooDemo Capheight03"',
+            '"VariablePooDemo Capheight04"',
+            '"VariablePooDemo Capheight05"',
+            '"VariablePooDemo Capheight06"',
+            '"VariablePooDemo Capheight07"',
+            '"VariablePooDemo Capheight08"',
+            '"VariablePooDemo Capheight09"'
+        ];
+
+        var frameDuration = 60;
+        var curFont;
+        var el;
+
+        function nextFont(c) {
+            if ((c.val == 0) && (c.inc < 0)) {
+                c.inc = +1;
+            }
+            if ((c.val == fontList.length-1) && (c.inc > 0)) {
+                c.inc = -1;
+            }
+
+            c.val += c.inc;
+
+            return(c);
+        }
+
+        function start(elemId) {
+            el = document.getElementById(elemId)
+
+            // Start at the first font, progressing up
+            curFont = { val: 0, inc: +1};
+
+            // Start the first frame
+            update();
+        }
+
+        function update() {
+            // Replace the font with the current one in fontList
+            el.style.fontFamily = fontList[curFont.val];
+
+            // Increment font
+            curFont = nextFont(curFont);
+
+            // Set the timer for the next frame
+            var animationId = setTimeout(update, frameDuration);
+        }
+
+        function startAnimations() {
+            setTimeout(function() {
+                start("mrpoo");
+            }, 10000);
+        }
+    </script>
+</head>
+
+<body onload="startAnimations()">
+
+    <div id="mrpoo" class="common">
+        &#x1F4A9;
+    </div>
+
+    <small>Remember to download <a href="./VariablePooDemo.ttf"></a> and install the font locally on Windows 10!</small>
+</body>
+</html>
